@@ -366,8 +366,8 @@ text-align: center;
 
  }
   .inspiration .yt{
-    width: 1140px;
-height: 614px;
+
+height: 500px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
@@ -414,49 +414,43 @@ text-align: center;
 .target .targets{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+   justify-content: space-between;
     align-items: center;
-    padding: 0px;    
+    padding: 0px; 
+   
 
 } 
-.target .targets .html{
+.target .targets .item{
     width: 284px;
     height: 220px;
-    /* Auto layout */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
-    padding: 0px;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
     border-radius: 16px;
-     background: rgba(255, 76, 30, 0.05);
+}
+.target .desc{
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.target .targets .html{
+    background: rgba(255, 76, 30, 0.05); 
 }
 .target .targets .css{
-    width: 284px;
-    height: 220px;
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    
-    border-radius: 16px;
-
-background: rgba(0, 76, 232, 0.05);  
+    background: rgba(0, 76, 232, 0.05);  
 }
 .target .targets .js{
-    width: 284px;
-    height: 220px;
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0px;
-    border-radius: 16px;
-
-background: rgba(255, 223, 0, 0.05);  
+    background: rgba(255, 223, 0, 0.05);  
 }
 .target .targets .LM{
     color: rgb(13, 19, 33);
@@ -521,8 +515,8 @@ text-align: center;
 
 }
 .suggestion input .ph{
-    width: 313px;
-height: 19px;
+width: 300px;
+height: 15px;
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
@@ -532,13 +526,13 @@ opacity: 0.9;
 font-family: Inter;
 font-size: 16px;
 font-weight: 400;
-line-height: 19px;
+line-height: 15px;
 letter-spacing: 0%;
 text-align: center;
 }
 .suggestion input{
-    width: 548px;
-height: 57px;
+    width: 500px;
+height: 50px;
 box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.15);
 border-radius: 8px;
@@ -546,8 +540,8 @@ border-radius: 8px;
 background: rgb(255, 255, 255);
 }
 .suggestion .subbutton {
-    width: 180px;
-height: 58px;
+    width: 100px;
+height: 50px;
 border-radius: 8px;
 color: rgb(13, 19, 33);
 font-family: Inter;
