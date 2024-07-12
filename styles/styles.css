@@ -416,14 +416,14 @@ letter-spacing: 0%;
 text-align: center;
 
 }
-/* .target .targets{
+.target .targets{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     padding: 0px;    
 
-} */
+} 
 .target .targets .html{
     width: 284px;
     height: 220px;
