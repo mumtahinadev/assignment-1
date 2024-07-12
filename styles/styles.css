@@ -332,16 +332,11 @@ height: 208.85px;
 margin-top: 140px;
  }
  .inspiration{
-    /* width: 50%;
-  height: 115px; */
+   
   width: 40%; 
   height: 777px;
      margin: 0 auto;
-     /* display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 0px;  */
+     
 margin-top: 30px; 
  }
 
@@ -370,7 +365,7 @@ letter-spacing: 0%;
 text-align: center;
 
  }
- /* .inspiration .yt{
+  .inspiration .yt{
     width: 1140px;
 height: 614px;
     box-sizing: border-box;
@@ -382,7 +377,7 @@ justify-content: center;
 align-items: center;
 padding: 0px; 
     
- } */
+ }
  .target{
     width: 40%; 
     height: 500px;
